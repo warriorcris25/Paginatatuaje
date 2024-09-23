@@ -1,0 +1,12 @@
+[
+    {
+        "titulo": "50% de descuento en diseños tribales",
+        "descripcion": "Promoción válida hasta fin de mes en cualquier tatuaje tribal.",
+        "imagen": "tribal.png"
+    },
+    {
+        "titulo": "Tatuajes a color - 30% off",
+        "descripcion": "Obtén un 30% de descuento en tatuajes a color.",
+        "imagen": "color.png"
+    }
+]

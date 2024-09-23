@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Cita - Tatuajes XYZ</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tatuajes XYZ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="agenda.html">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="promociones.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="diseño-deseado.html">Subir Diseños</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h2 class="text-center">Agendar Cita</h2>
+        <form id="appointment-form">
+            <div class="mb-3">
+                <label for="appointmentDate" class="form-label">Fecha de la cita</label>
+                <input type="date" class="form-control" id="appointmentDate">
+            </div>
+            <div class="mb-3">
+                <label for="appointmentTime" class="form-label">Hora de la cita</label>
+                <input type="time" class="form-control" id="appointmentTime">
+            </div>
+            <div class="mb-3">
+                <label for="appointmentNotes" class="form-label">Notas adicionales</label>
+                <textarea class="form-control" id="appointmentNotes" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Agendar</button>
+        </form>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

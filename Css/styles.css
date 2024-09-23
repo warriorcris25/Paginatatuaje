@@ -1,0 +1,58 @@
+/* Carrusel */
+#carrusel .carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Secciones */
+#noticias, #subir-disenos {
+    background-color: #f8f9fa;
+}
+
+#ofertas {
+    background-color: #343a40;
+}
+
+#agenda {
+    background-color: #212529;
+    color: white;
+}
+
+#agenda h2, #ofertas h2 {
+    margin-bottom: 30px;
+}
+
+/* Tarjetas de noticias y ofertas */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+/* Estilos personalizados */
+
+body {
+    background-color: #343a40; /* Fondo oscuro */
+}
+
+.form-container {
+    background-color: #f8f9fa; /* Fondo claro del contenedor */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+p {
+    margin-top: 1.5rem;
+}
+
+a {
+    color: #0d6efd; /* Color del enlace */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

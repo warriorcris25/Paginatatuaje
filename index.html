@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatuajes XYZ</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tatuajes XYZ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Paginatatuaje/Html/agenda.html">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Paginatatuaje/Html/promociones.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Paginatatuaje/Html/diseño-deseado.html">Subir Diseños</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Paginatatuaje/Html/Login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Carrusel (Local y tatuajes) -->
+    <section id="carrusel" class="p-0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" 
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" 
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" 
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/local1.jpg" class="d-block w-100" alt="Local de tatuajes 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/tatuaje1.jpg" class="d-block w-100" alt="Tatuaje 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/tatuaje2.jpg" class="d-block w-100" alt="Tatuaje 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" 
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" 
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <section id="noticias" class="p-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Últimas Noticias</h2>
+            <div class="row">
+                <!-- Noticia 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/noticia1.jpg" class="card-img-top" alt="Noticia 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuevo Artista en el Equipo</h5>
+                            <p class="card-text">Estamos emocionados de darle la bienvenida a nuestro nuevo artista, experto en diseños realistas.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Noticia 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/noticia2.jpg" class="card-img-top" alt="Noticia 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Nueva Colección de Diseños</h5>
+                            <p class="card-text">Descubre nuestra nueva colección de diseños exclusivos para esta temporada.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Noticia 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes/noticia3.jpg" class="card-img-top" alt="Noticia 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento de Tatuajes Solidarios</h5>
+                            <p class="card-text">Participa en nuestro evento para apoyar una buena causa y llevarte un tatuaje especial.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Ofertas y Promociones -->
+    <section id="ofertas" class="p-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Ofertas y Promociones</h2>
+            <div class="row">
+                <!-- Oferta 1 -->
+                <div class="col-md-4">
+                    <div class="card text-dark">
+                        <img src="imagenes/oferta1.jpg" class="card-img-top" alt="Oferta 1">
+                        <div class="card-body">
+                            <h5 class="card-title">50% de descuento en diseños tribales</h5>
+                            <p class="card-text">Promoción válida hasta fin de mes en cualquier tatuaje tribal.</p>
+                            <a href="#" class="btn btn-primary">Aprovecha ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 2 -->
+                <div class="col-md-4">
+                    <div class="card text-dark">
+                        <img src="imagenes/oferta2.jpg" class="card-img-top" alt="Oferta 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tatuajes a color - 30% off</h5>
+                            <p class="card-text">Obtén un 30% de descuento en tatuajes a color.</p>
+                            <a href="#" class="btn btn-primary">Aprovecha ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Oferta 3 -->
+                <div class="col-md-4">
+                    <div class="card text-dark">
+                        <img src="imagenes/oferta3.jpg" class="card-img-top" alt="Oferta 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Descuentos en sesiones largas</h5>
+                            <p class="card-text">Descuento especial en tatuajes que requieren sesiones largas.</p>
+                            <a href="#" class="btn btn-primary">Aprovecha ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección para subir diseños -->
+    <section id="subir-disenos" class="p-5 bg-light">
+        <h2 class="text-center">Sube tu diseño deseado</h2>
+        <form id="upload-form" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="designName" class="form-label">Nombre del diseño</label>
+                        <input type="text" class="form-control" id="designName" placeholder="Nombre del diseño">
+                    </div>
+                    <div class="mb-3">
+                        <label for="designSize" class="form-label">Tamaño</label>
+                        <input type="text" class="form-control" id="designSize" placeholder="Tamaño del diseño (cm)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="bodyPart" class="form-label">Parte del cuerpo</label>
+                        <input type="text" class="form-control" id="bodyPart" placeholder="¿Dónde quieres el tatuaje?">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="designStyle" class="form-label">Estilo de tatuaje</label>
+                        <select class="form-select" id="designStyle">
+                            <option value="realista">Realista</option>
+                            <option value="tradicional">Tradicional</option>
+                            <option value="geométrico">Geométrico</option>
+                            <option value="acuarela">Acuarela</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="designImage" class="form-label">Subir imagen</label>
+                        <input type="file" class="form-control" id="designImage">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Subir</button>
+        </form>
+    </section>
+
+    <!-- Sección para agendar citas -->
+    <section id="agenda" class="p-5 bg-dark text-white">
+        <h2 class="text-center">Agendar Cita</h2>
+        <form id="appointment-form" class="container">
+            <div class="mb-3">
+                <label for="appointmentDate" class="form-label">Fecha de la cita</label>
+                <input type="date" class="form-control" id="appointmentDate">
+            </div>
+            <div class="mb-3">
+                <label for="appointmentTime" class="form-label">Hora de la cita</label>
+                <input type="time" class="form-control" id="appointmentTime">
+            </div>
+            <div class="mb-3">
+                <label for="appointmentNotes" class="form-label">Notas adicionales</label>
+                <textarea class="form-control" id="appointmentNotes" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Agendar</button>
+        </form>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
